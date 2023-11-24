@@ -11,6 +11,7 @@ def classify_spam(text):
     return predicted_class
 def main():
     st.title("SMS Spam Classification App")
+    st.text("Made by Moneeb Ahmad with Lil Love ❤️  ")
     text_input = st.text_area("Enter SMS text for classification:", "")
     if st.button("Classify"):
         if text_input:
